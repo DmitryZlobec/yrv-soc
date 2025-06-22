@@ -1,0 +1,5 @@
+WARNING: ../design/mfp_dual_port_ram.v:31: $readmemh(main.mem16): Not enough words in the file for the requested range [0:1024].
+WARNING: ../design/mfp_dual_port_ram.v:31: $readmemh(main.mem16): Not enough words in the file for the requested range [0:1024].
+VCD info: dumpfile dump.vcd opened for output.
+VCD warning: $dumpvars: Package ($unit) is not dumpable with VCD.
+tb_yrv_mcu.sv:123: $finish called at 2005900 (100ps)

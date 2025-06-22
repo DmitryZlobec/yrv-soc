@@ -1,0 +1,2 @@
+#!/bin/sh
+exec python -u '../common/freedom-bin2hex.py' ${1+"$@"}
