@@ -51,7 +51,7 @@
 `endif
 
 
-module yrv_soc  (debug_mode, port0_reg, port1_reg, port2_reg, port3_reg, ser_clk, ser_txd,
+module yrv_soc  (debug_mode, port0_reg, port1_reg, port2_reg, port3_reg, 
                  wfi_state, clk, ei_req, nmi_req, port4_in, port5_in, resetb);
 
   input         clk;                                       /* cpu clock                    */
@@ -197,6 +197,7 @@ module yrv_ahb_bridge (
   input             clk,
   input             resetb,
 
+//YRV
   input  [31:0] mem_addr,
   input  [ 3:0] mem_ble,
   input  [ 1:0] mem_trans,
